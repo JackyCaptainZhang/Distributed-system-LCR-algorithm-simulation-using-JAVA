@@ -3,6 +3,7 @@
 WELCOME!!
 
 Description of LCR:
+
 The network considered in this assignment is a ring of rings, defined as follows (see Figure
 1 for an illustration while reading the definition). There is a main ring G of n processors
 V = {u1, u2, . . . , un}. There is a non-empty subset V ′ ⊆ V of **interface processors**, such
@@ -30,10 +31,15 @@ ids from {1, 2, . . . , 3N − 1, 3N}). Processors execute in synchronous rounds
 Comments for codes are fully deployed in the code. You can download and check! No more comments at here!
 
 **How to run:**
+
 **1|** Please run the **Main.java** file to start the simulation.The system would ask you to enter the size of the main ring. 
+
 **2|** The auto generated main ring with interface node ID '-1' will show on the screen.
+
 **3|** the system would ask the user to enter the size of each subring.
+
 **4|** At the end of the program, the process, leader of main ring, messages being transferred, cycle(round) and status of each node would be displayed on the screen.
+
 --------------------------------------------------------------------------------------
 
 **PS1:** For testing convenience, the number of subring is set to constant three. Check the **Nodes.java** line 111 and 112 how to change to random!!
@@ -42,7 +48,9 @@ Comments for codes are fully deployed in the code. You can download and check! N
 
 **PS3:** Four classes are constructed in this simulator. The main functionalities of the four classes are described as follows:
 The **“Nodes”** class is constructed to serve as processors in rings. An ArrayList storing several “Nodes” objects is initialized as a ring. 
+
 The **“LCR_asynchronized” and “LCR_asynchronized_for_sub_ring”** are responsible for creating main ring and subring networks
+
 The **“Main”** class containing the main function can provide a user interface to execute the leader election
 
 Enjoy and have a nice day!!
