@@ -44,9 +44,10 @@ Comments for codes are fully deployed in the code. You can download and check! N
 
 **PS1:** For testing convenience, the number of subring is set to constant three. Check the **Nodes.java** **line 111 and 112** how to change the number of sub rings to random!!
 
-**PS2:** Files "LCR_asynchronized.java" and "LCR_asynchronized_for_sub_ring.java" do not have any difference in the core code. Just one for main ring and one for sub rings for different user interface.
+**PS2:** Files **"LCR_asynchronized.java" and "LCR_asynchronized_for_sub_ring.java"** do not have any difference in the core code. Just one for main ring and one for sub rings for different user interface.
 
 **PS3:** Four classes are constructed in this simulator. The main functionalities of the four classes are described as follows:
+
 The **“Nodes”** class is constructed to serve as processors in rings. An ArrayList storing several “Nodes” objects is initialized as a ring. 
 The **“LCR_asynchronized” and “LCR_asynchronized_for_sub_ring”** are responsible for creating main ring and subring networks
 The **“Main”** class containing the main function can provide a user interface to execute the leader election
