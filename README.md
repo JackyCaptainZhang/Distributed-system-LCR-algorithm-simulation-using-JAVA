@@ -32,11 +32,11 @@ Comments for codes are fully deployed in the code. You can download and check! N
 
 **How to run:**
 
-**1|** Please run the **Main.java** file to start the simulation.The system would ask you to enter the size of the main ring. 
+**1|** Please run the **Main.java** file to start the simulation.The system would ask you to enter the size of the **main ring**. 
 
 **2|** The auto generated main ring with interface node ID '-1' will show on the screen.
 
-**3|** the system would ask the user to enter the size of each subring.
+**3|** the system would ask the user to enter the size of **each sub ring**.
 
 **4|** At the end of the program, the process, leader of main ring, messages being transferred, cycle(round) and status of each node would be displayed on the screen.
 
