@@ -42,7 +42,7 @@ Comments for codes are fully deployed in the code. You can download and check! N
 
 --------------------------------------------------------------------------------------
 
-**PS1:** For testing convenience, the number of subring is set to constant three. Check the **Nodes.java** **line 111 and 112** how to change the number of sub rings to random!!
+**PS1:** For testing convenience, **the number of sub ring is set to constant 3**. Check the **Nodes.java** **line 111 and 112** to find out how to change the number of sub rings to random!!
 
 **PS2:** Files **"LCR_asynchronized.java" and "LCR_asynchronized_for_sub_ring.java"** do not have any difference in the core code. Just one for main ring and one for sub rings for different user interface.
 
